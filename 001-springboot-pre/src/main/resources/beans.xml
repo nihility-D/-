@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--    声明bean对象-->
+    <bean id="MyStudent" class="com.dwq.vo.Student">
+<!--        <constructor-arg index="0" value="代代"/>-->
+<!--        <constructor-arg index="1" value="22"/>-->
+<!--        <constructor-arg index="2" value="男"/>-->
+        <property name="name" value="代代"></property>
+        <property name="age" value="22"></property>
+        <property name="sex" value="男"></property>
+    </bean>
+</beans>
